@@ -1,0 +1,1 @@
+import{_ as e,p as t,q as s,R as _}from"./framework-204010b2.js";const c={},o=_("p",null,"This is api.",-1),a=[o];function n(i,r){return t(),s("div",null,a)}const p=e(c,[["render",n],["__file","api.html.vue"]]);export{p as default};
