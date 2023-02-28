@@ -1,6 +1,8 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /blogs/other/guide.html
+  "v-6bb1ef33": () => import(/* webpackChunkName: "v-6bb1ef33" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/blogs/other/guide.html.js").then(({ data }) => data),
   // path: /docs/theme-reco/api.html
   "v-acdd9360": () => import(/* webpackChunkName: "v-acdd9360" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/docs/theme-reco/api.html.js").then(({ data }) => data),
   // path: /docs/theme-reco/home.html
@@ -9,8 +11,6 @@ export const pagesData = {
   "v-456cc6d6": () => import(/* webpackChunkName: "v-456cc6d6" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/docs/theme-reco/plugin.html.js").then(({ data }) => data),
   // path: /docs/theme-reco/theme.html
   "v-65959fc1": () => import(/* webpackChunkName: "v-65959fc1" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/docs/theme-reco/theme.html.js").then(({ data }) => data),
-  // path: /blogs/other/guide.html
-  "v-6bb1ef33": () => import(/* webpackChunkName: "v-6bb1ef33" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/blogs/other/guide.html.js").then(({ data }) => data),
   // path: /blogs/category1/2018/121501.html
   "v-32598bfc": () => import(/* webpackChunkName: "v-32598bfc" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/blogs/category1/2018/121501.html.js").then(({ data }) => data),
   // path: /blogs/category1/2019/092101.html

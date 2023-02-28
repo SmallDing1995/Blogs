@@ -3,6 +3,8 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/index.html.vue")),
+  // path: /blogs/other/guide.html
+  "v-6bb1ef33": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb1ef33" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/blogs/other/guide.html.vue")),
   // path: /docs/theme-reco/api.html
   "v-acdd9360": defineAsyncComponent(() => import(/* webpackChunkName: "v-acdd9360" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/docs/theme-reco/api.html.vue")),
   // path: /docs/theme-reco/home.html
@@ -11,8 +13,6 @@ export const pagesComponents = {
   "v-456cc6d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-456cc6d6" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/docs/theme-reco/plugin.html.vue")),
   // path: /docs/theme-reco/theme.html
   "v-65959fc1": defineAsyncComponent(() => import(/* webpackChunkName: "v-65959fc1" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/docs/theme-reco/theme.html.vue")),
-  // path: /blogs/other/guide.html
-  "v-6bb1ef33": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb1ef33" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/blogs/other/guide.html.vue")),
   // path: /blogs/category1/2018/121501.html
   "v-32598bfc": defineAsyncComponent(() => import(/* webpackChunkName: "v-32598bfc" */"/Users/ding/Desktop/Blogs/.vuepress/.temp/pages/blogs/category1/2018/121501.html.vue")),
   // path: /blogs/category1/2019/092101.html
