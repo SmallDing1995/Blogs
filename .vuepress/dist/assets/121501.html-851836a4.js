@@ -1,1 +1,0 @@
-import{_ as e,p as t,q as _,R as c}from"./framework-204010b2.js";const o={},s=c("p",null,"first page in category1",-1),n=[s];function r(a,l){return t(),_("div",null,n)}const f=e(o,[["render",r],["__file","121501.html.vue"]]);export{f as default};
