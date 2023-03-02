@@ -1,0 +1,1 @@
+import{_ as e,p as t,q as _,s}from"./framework-e1bed10d.js";const c={},o=s("p",null,"随便写写。 今天办公搬迁了，搬到的新的智慧大楼。 以后上班不用开车了。 每天又能省油钱了。 对了和任总约好下周二打篮球。 嘻嘻,2023 年我要做个猛男。",-1),n=[o];function r(a,l){return t(),_("div",null,n)}const f=e(c,[["render",r],["__file","2023-03-01.html.vue"]]);export{f as default};
