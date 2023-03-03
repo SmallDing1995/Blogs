@@ -29,16 +29,27 @@ export default defineUserConfig({
       //   ],
       // },
     ],
-    //valineConfig 配置与 1.x 一致
-    valineConfig: {
-      appId: 'xxx',
-      appKey: 'xxx',
-      placeholder: '填写邮箱可以收到回复提醒哦！',
-      verify: true, // 验证码服务
-      // notify: true,
-      recordIP: true,
-      hideComments: false // 隐藏评论
+    commentConfig: {
+      type: 'valine',
+      options: {
+        appId: 'GC3UYG29vZWWKbjMVe0L82Y4-gzGzoHsz',
+        appKey: 'DXrncqa6XybOFtsE6cfEtQmx',
+        hideComments: false, // 全局隐藏评论，默认 false,
+        placeholder: '填写邮箱可以收到回复提醒哦！',
+        visitor: true,
+        notify: true
+      }
     },
+    //valineConfig 配置与 1.x 一致
+    // valineConfig: {
+    //   appId: 'GC3UYG29vZWWKbjMVe0L82Y4-gzGzoHsz',
+    //   appKey: 'DXrncqa6XybOFtsE6cfEtQmx',
+    //   placeholder: '填写邮箱可以收到回复提醒哦！',
+    //   verify: true, // 验证码服务
+    //   // notify: true,
+    //   recordIP: true,
+    //   hideComments: false // 隐藏评论
+    // },
   }),
   // debug: true,
 });
