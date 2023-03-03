@@ -5,6 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "Ding的博文",
   description: "记录有趣的生活",
+  port:8082,
   theme: recoTheme({
     autoSetBlogCategories: true,
     // 自动将分类和标签添加至头部导航条
